@@ -204,6 +204,7 @@ snake-game-project/
 
 > **定时器驱动 `tick` → `tick` 更新蛇坐标 → React 重新渲染 SVG → 你看到了动画。**
 > 三个 ref 各司其职：`directionRef` 管当前方向、`nextDirectionRef` 缓存用户输入、`tickRef` 管定时器生命周期。状态通过 `useState` 驱动 UI 更新，碰撞时停止定时器并显示结束界面。
+> 继续完善
 
 ## 许可
 
