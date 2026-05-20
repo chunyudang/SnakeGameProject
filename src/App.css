@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #0f0f23;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.title {
+  font-size: 28px;
+  color: #16c79a;
+  letter-spacing: 2px;
+}
+
+.score-board {
+  font-size: 18px;
+  color: #a0a0c0;
+}
+
+.score-board strong {
+  color: #e94560;
+  font-size: 22px;
+}
+
+.board {
+  border: 2px solid #16c79a;
+  border-radius: 6px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(15, 15, 35, 0.85);
+  z-index: 10;
+}
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 32px 48px;
+  border-radius: 12px;
+  background: rgba(22, 199, 154, 0.08);
+  border: 1px solid rgba(22, 199, 154, 0.3);
+}
+
+.overlay-title {
+  font-size: 32px;
+  color: #e94560;
+}
+
+.overlay-text {
+  font-size: 18px;
+  color: #c0c0d0;
+}
+
+.hint {
+  font-size: 13px;
+  color: #6a6a8a;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f0f23;
+  background: #16c79a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.btn:hover {
+  background: #1de9b6;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
