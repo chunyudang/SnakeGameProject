@@ -1,3 +1,7 @@
+---
+trigger: always_on
+alwaysApply: true
+---
 # 测试规范
 
 ## 测试框架

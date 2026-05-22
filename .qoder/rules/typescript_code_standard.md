@@ -1,3 +1,7 @@
+---
+trigger: always_on
+alwaysApply: true
+---
 # TypeScript 编码规范
 
 ## 编译配置（tsconfig.json）
